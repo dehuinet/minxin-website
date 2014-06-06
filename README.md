@@ -20,6 +20,6 @@ npm install & bower install
 grunt build
 ```
 
-发布文件都在如下目录
+编译之后的发布文件都在此目录
 ------
 /dist
