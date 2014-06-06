@@ -3,16 +3,21 @@
 网站基于node + grunt + bower搭建环境。
 部署前请确保已安装Node、NPM
 
-安装Grunt自动化编译工具:
-------
-如果已安装请忽略
+## 配置环境：
+注意：配置环境仅需除此配置，之后部署前不需再此配置
+
+####安装Compass和Sass(CSS脚本编译工具):
+```
+gem install compass
+gem install sass
+```
+
+####安装Grunt自动化编译工具:
 ```
 npm install grunt-cli -g
 ```
 
-安装Bower静态依赖管理工具:
-------
-如果已安装请忽略
+####安装Bower静态依赖管理工具:
 ```
 npm install bower -g
 ```
