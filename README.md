@@ -3,7 +3,13 @@
 网站基于node + grunt + bower搭建环境。
 部署前请确保已安装Node、NPM
 
-安装Bower依赖管理:
+安装Grunt自动化编译工具:
+------
+```
+npm install grunt-cli -g
+```
+
+安装Bower静态依赖管理工具:
 ------
 ```
 npm install bower -g
