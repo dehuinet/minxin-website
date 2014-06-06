@@ -781,14 +781,3 @@ div.popup-feature04 {
 .my-mfp-zoom-in.mfp-removing.mfp-bg {
     opacity: 0;
 }
-
-@media only screen
-and (min-device-width : 800px)
-and (max-device-width : 1280px) {
-    body.mobile-download {
-        background:#f00;
-    }
-    div.down-ios {
-        display:none!important;
-    }
-}
