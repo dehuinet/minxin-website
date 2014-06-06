@@ -5,12 +5,14 @@
 
 安装Grunt自动化编译工具:
 ------
+如果已安装请忽略
 ```
 npm install grunt-cli -g
 ```
 
 安装Bower静态依赖管理工具:
 ------
+如果已安装请忽略
 ```
 npm install bower -g
 ```
