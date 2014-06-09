@@ -46,13 +46,14 @@
             <section class="client-download">
 				<h3>操作系统选择</h3>
 				<dl>
-					<div class="down-ios">
+					<div id="iosDownWrap" class="down-ios down-disabled">
 						<dt>
 							iOS
 						</dt>
 						<dd>
-							<p>支持iOS 4.3及以上版本</p>
-							<a href="itms-services://?action=download-manifest&url=https://www.minxing365.com/plists/com.minxing.product_eafd77aaec226b0aa692207ddc7a15e1.plist">iOS客户端下载</a>
+							<p>支持iOS 4.3及以上版本<span class="tip">（请从手机端下载）</span></p>
+							<a class="download-btn" href="itms-services://?action=download-manifest&url=https://www.minxing365.com/plists/com.minxing.product_eafd77aaec226b0aa692207ddc7a15e1.plist">iOS客户端下载</a>
+                            <a class="btn" href="javascript:;">iOS客户端下载</a>
 						</dd>
 					</div>
 					<div class="down-android">
@@ -76,5 +77,18 @@
         <footer>
             <p class="copyright">Copyright 2014 Dehui Network Co.,Ltd. All rights reserved. 京ICP备14012220号-1</p>
         </footer>
+        <script>
+            (function() {
+                var agent = navigator.userAgent;
+                var iosDownWrap = document.getElementById('iosDownWrap');
+                var showBtn = function() {
+                    iosDownWrap.className = iosDownWrap.className.replace(/down\-disabled/g, '');
+                };
+
+                if (/iphone|ipad|ipod/i.test(agent)) {
+                    showBtn();
+                }
+            }());
+        </script>
 </body>
 </html>

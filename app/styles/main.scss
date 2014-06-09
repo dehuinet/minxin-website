@@ -420,6 +420,9 @@ header {
             padding-left:150px;
             border-right:1px dotted #e5e5e5;
             background:url("../images/ios_logo.png") no-repeat left 12px;
+            .tip {
+                display:none;
+            }
         }
         div.down-android {
             width:314px;
@@ -446,9 +449,32 @@ header {
                 color:#fff;
                 text-align:center;
             }
+            a.download-btn {
+                display:block;
+            }
+            a.btn {
+                display:none;
+            }
             a:hover {
                 background-color:#1b76bd;
                 text-decoration:none;
+            }
+        }
+        div.down-disabled {
+            .tip {
+                display:inline;
+            }
+            a.btn {
+                display:block;
+            }
+            a.download-btn {
+                display:none;
+            }
+            a:link,
+            a:hover,
+            a:visited {
+                background:#B2B2B2;
+                cursor:default;
             }
         }
     }
