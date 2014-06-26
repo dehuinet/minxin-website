@@ -1,4 +1,4 @@
-# 敏信网站 & mobile下载页
+# 敏行网站 & mobile下载页
 
 网站基于node + grunt + bower搭建环境。
 部署前请确保已安装Node、NPM

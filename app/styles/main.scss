@@ -35,12 +35,12 @@ header {
         float:left;
         width:auto;
         height:55px;
-        padding:20px 0 0 0;
+        padding:15px 0 0 0;
         a {
             display:block;
             float:left;
-            width:80px;
-            height:34px;
+            width:200px;
+            height:47px;
             background:url("../images/logo.png") no-repeat left 2px;
             text-indent:-9999px;
         }
@@ -49,9 +49,8 @@ header {
             float:left;
             width:238px;
             height:38px;
-            margin:0 0 0 12px;
+            margin:16px 0 0 0;
             background:url("../images/logo-sub.png") no-repeat 12px 10px;
-            border-left:1px solid #e6e6e6;
             text-indent:-9999px;
         }
     }
